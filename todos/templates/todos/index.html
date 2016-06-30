@@ -1,0 +1,7 @@
+{% extends 'todos/base.html' %}
+{% load render_bundle from webpack_loader %}
+
+{% block content %}
+<div id="root">Loading...</div>
+{% render_bundle 'main' %}
+{% endblock %}
